@@ -17,15 +17,5 @@ new Vue({
                 this.valor = 0
             }, 5000);
         }
-    },
-
-    methods: {
-        aumentar() {
-            this.valor++
-        },
-        
-        diminuir() {
-            this.valor--
-        }
     }
 });
